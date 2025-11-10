@@ -1,3 +1,5 @@
+package com.pacakage_demo;
+
 public class OperatorsPratice {
 
 	public static void main(String[] args) {
@@ -58,8 +60,12 @@ public class OperatorsPratice {
 		
 		System.out.println("<-------------Bitwise Operator----------->");
 		System.out.println("12 & 15 : "+ (12 & 15));
-		System.out.println("11 | 13 & 12 : " + (11 | 13 & 12));
+		System.out.println("11 | 13 & 12 : " + ((11 | 13) & 12));
 		System.out.println("17 & 7 & 49 : " + (17 & 7 & 49));
+		System.out.println("17 ^ 7:" + (17 ^ 7));
+		System.out.println("~27:" + (~27));
+		System.out.println("12 << 5 : "+ (12 << 15));
+		System.out.println("12 >> 15 : "+ (12 >> 15));
 		
 	}
 }
